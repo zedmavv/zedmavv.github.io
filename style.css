@@ -1,0 +1,101 @@
+/* Universal Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Style */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #ffffff;
+  color: #1a1a1a;
+  line-height: 1.6;
+}
+
+/* Top Navigation */
+.topbar {
+  background-color: #0D47A1; /* Royal Blue */
+  color: #fff;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 1rem;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #FFD700; /* Gold */
+}
+
+/* Hero Section */
+.hero {
+  padding: 4rem 2rem;
+  text-align: center;
+  background: #f2f4f8;
+}
+
+.hero h1 {
+  font-size: 2rem;
+  color: #0D47A1;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+}
+
+.cta-button {
+  display: inline-block;
+  background-color: #FFD700;
+  color: #0D47A1;
+  padding: 0.75rem 1.5rem;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #ffcc00;
+}
+
+/* Page Content */
+.content {
+  padding: 2rem;
+  max-width: 800px;
+  margin: auto;
+}
+
+.content h1 {
+  color: #0D47A1;
+  margin-bottom: 1rem;
+}
+
+.content ul {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+}
+
+/* Footer */
+.footer {
+  background-color: #0D47A1;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
