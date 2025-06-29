@@ -7,7 +7,7 @@
 
 /* Body Style */
 body {
-  font-family: 'Segoe UI', sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background-color: #ffffff;
   color: #1a1a1a;
   line-height: 1.6;
@@ -36,6 +36,13 @@ body {
   font-weight: 500;
   transition: color 0.3s ease;
 }
+
+.nav-links a:focus,
+.cta-button:focus {
+  outline: 2px solid #FFD700;
+  outline-offset: 2px;
+}
+
 
 .nav-links a:hover {
   color: #FFD700; /* Gold */
@@ -99,3 +106,23 @@ body {
   padding: 1rem;
   margin-top: 2rem;
 }
+
+
+/* media queries */
+@media (max-width: 768px) {
+  .nav-links {
+    flex-direction: column;
+    width: 100%;
+  }
+  .nav-links a {
+    display: block;
+    margin: 0.5rem 0;
+  }
+}
+
+@media (max-width: 600px) {
+  .hero {
+    padding: 2rem 1rem;
+  }
+}
+
