@@ -110,6 +110,8 @@ body {
 
 .cta-button:hover {
   background-color: #ffcc00;
+  border: black 1px solid;
+  width: 40%;
 }
 
 /* Page Content */
