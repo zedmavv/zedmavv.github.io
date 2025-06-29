@@ -109,7 +109,6 @@ body {
 }
 
 .cta-button:hover {
-  background-color: #ffcc00;
   border: blue 1px solid;
   transition: all 0.3s ease;
 }
