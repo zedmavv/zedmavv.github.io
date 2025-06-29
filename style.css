@@ -46,6 +46,11 @@ body {
   flex-wrap: wrap;
 }
 
+.topbar .logo {
+  text-decoration: none;
+  color: white;
+}
+
 .logo {
   font-size: 1.5rem;
   font-weight: bold;
