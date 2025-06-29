@@ -4,6 +4,28 @@
   padding: 0;
   box-sizing: border-box;
 }
+/*************************footer stick****************************************/
+/* Make sure body fills the whole viewport */
+html, body {
+  height: 100%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Flex container for layout */
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Make main content grow to push footer down */
+main {
+  flex: 1;
+}
+
+/****************************************************************/
 
 /* Body Style */
 body {
