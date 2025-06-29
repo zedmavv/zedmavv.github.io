@@ -106,12 +106,15 @@ body {
   border-radius: 5px;
   font-weight: bold;
   transition: background 0.3s ease;
+  width: 20%;
 }
 
 .cta-button:hover {
   background-color: #ffcc00;
-  border: black 1px solid;
-  width: 40%;
+  border: blue 1px solid;
+  color: #0D47A1;
+  width: 30%;
+  transition: all 0.3s ease;
 }
 
 /* Page Content */
