@@ -158,6 +158,16 @@ th {
   color: #fff;
 }
 
+ol {
+  margin-left: 1.5rem;
+  line-height: 1.7;
+}
+
+ol li {
+  margin-bottom: 1rem;
+}
+
+
 
 
 /* media queries */
