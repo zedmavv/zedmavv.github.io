@@ -23,7 +23,6 @@ body {
 /* Make main content grow to push footer down */
 main {
   flex: 1;
-  width: 70%;
 }
 
 /****************************************************************/
