@@ -4,9 +4,11 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 /*************************footer stick****************************************/
 /* Make sure body fills the whole viewport */
-html, body {
+html,
+body {
   height: 100%;
 }
 
@@ -37,7 +39,8 @@ body {
 
 /* Top Navigation */
 .topbar {
-  background-color: #0D47A1; /* Royal Blue */
+  background-color: #0D47A1;
+  /* Royal Blue */
   color: #fff;
   padding: 1rem 2rem;
   display: flex;
@@ -52,7 +55,8 @@ body {
 }
 
 .topbar .logo a:hover {
-  color: #FFD700; /* Gold */
+  color: #FFD700;
+  /* Gold */
 }
 
 .logo {
@@ -76,7 +80,8 @@ body {
 
 
 .nav-links a:hover {
-  color: #FFD700; /* Gold */
+  color: #FFD700;
+  /* Gold */
 }
 
 /* content Section */
@@ -138,47 +143,13 @@ body {
   margin-top: 2rem;
 }
 
-/* Pricing Table*/
-table {
-  width: 100%;
-  border-collapse: collapse;
-  margin-top: 1rem;
-}
-
-th, td {
-  border: 1px solid #ddd;
-  padding: 0.75rem;
-  text-align: left;
-}
-
-th {
-  background-color: #0D47A1;
-  color: #fff;
-}
-
-ol {
-  margin-left: 1.5rem;
-  line-height: 1.7;
-}
-
-ol li {
-  margin-bottom: 1rem;
-}
-
-h2 #how-it-works {
-  color: #0D47A1;
-  margin-bottom: 1rem;
-  font-size: 1.5rem;
-}
-
-
-
 /* media queries */
 @media (max-width: 768px) {
   .nav-links {
     flex-direction: column;
     width: 100%;
   }
+
   .nav-links a {
     display: block;
     margin: 0.5rem 0;
@@ -190,4 +161,3 @@ h2 #how-it-works {
     padding: 2rem 1rem;
   }
 }
-

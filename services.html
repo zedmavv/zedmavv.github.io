@@ -1,15 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Explore the services offered by ZedMavv to help small businesses grow online. We specialize in SEO, branding, social media support, and simple website solutions.">
-  <meta name="keywords" content="ZedMavv, services, small business, online growth, SEO, branding, social media support, website solutions">
+  <meta name="description"
+    content="Explore the services offered by ZedMavv to help small businesses grow online. We specialize in SEO, branding, social media support, and simple website solutions.">
+  <meta name="keywords"
+    content="ZedMavv, services, small business, online growth, SEO, branding, social media support, website solutions">
   <meta name="author" content="ZedMavv">
   <title>ZedMavv | Our Services</title>
   <link rel="stylesheet" href="style.css" />
   <link rel="icon" href="icon.png" />
+
+  <style>
+    /* Pricing Table */
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 1rem;
+    }
+
+    th,
+    td {
+      border: 1px solid #ddd;
+      padding: 0.75rem;
+      text-align: left;
+    }
+
+    th {
+      background-color: #0D47A1;
+      color: #fff;
+    }
+
+    ol {
+      margin-left: 1.5rem;
+      line-height: 1.7;
+    }
+
+    ol li {
+      margin-bottom: 1rem;
+    }
+
+    #local {
+      font-weight: bold;
+      color: #0D47A1;
+      margin-top: 1rem;
+      text-align: center;
+    }
+
+    /* How it works format */
+    #how-it-works {
+      text-align: center;
+    }
+
+    @media (max-width: 768px) {
+      table {
+        display: block;
+        overflow-x: auto;
+      }
+    }
+
+    th, td {
+      border: grey 1px solid;
+    }
+  </style>
 </head>
+
 <body>
 
   <header class="topbar">
@@ -31,57 +88,92 @@
         <th>Service</th>
         <th>Description</th>
         <th>Price (International)</th>
+        <th>Type</th>
       </tr>
       <tr>
-        <td>SEO Optimization</td>
+        <td><strong>SEO Optimization</strong></td>
         <td>Get found on Google easily and increase traffic.</td>
         <td>From $80 / month</td>
+        <td>Monthly</td>
       </tr>
       <tr>
-        <td>Branding Starter Pack</td>
+        <td><strong>Branding Starter Pack</strong></td>
         <td>Basic logo & colors to build a strong identity.</td>
         <td>From $100</td>
+        <td>One-Time</td>
       </tr>
       <tr>
-        <td>Social Media Setup</td>
+        <td><strong>Social Media Setup</strong></td>
         <td>Create or improve your Facebook & Instagram pages.</td>
         <td>From $60</td>
+        <td>One-Time</td>
       </tr>
       <tr>
-        <td>Simple Website Setup</td>
+        <td><strong>Simple Website Setup</strong></td>
         <td>Launch a basic website with free hosting & support.</td>
         <td>From $150</td>
+        <td>One-Time</td>
       </tr>
       <tr>
-        <td>Google Business Profile</td>
+        <td><strong>Google Business Profile</strong></td>
         <td>Get listed on Google Maps so customers find you.</td>
         <td>From $40</td>
+        <td>One-Time</td>
       </tr>
       <tr>
-        <td>Content & Copywriting</td>
+        <td><strong>Content & Copywriting</strong></td>
         <td>Clear website text, posts & captions for your brand.</td>
         <td>From $50</td>
+        <td>One-Time</td>
+      </tr>
+      <tr>
+        <td><strong>Website Maintenance</strong></td>
+        <td>Regular updates, security checks & small edits to keep your site fresh.</td>
+        <td>From $40 / month</td>
+        <td>Monthly</td>
+      </tr>
+      <tr>
+        <td><strong>Social Media Posting</strong></td>
+        <td>Monthly posts for Facebook & Instagram, written & scheduled for you.</td>
+        <td>From $50 / month</td>
+        <td>Monthly</td>
+      </tr>
+      <tr>
+        <td><strong>Consulting / Strategy Call</strong></td>
+        <td>One-on-one advice session to plan your online growth.</td>
+        <td>From $30</td>
+        <td>One-Time</td>
+      </tr>
+      <tr>
+        <td><strong>Basic Analytics Report</strong></td>
+        <td>Simple website or social media performance report & insights.</td>
+        <td>From $30</td>
+        <td>One-Time</td>
       </tr>
     </table>
 
-    <p>🇿🇲 <strong>Zambian clients:</strong> Contact us for affordable local packages!</p>
+    <p id="local">🇿🇲 <strong>Zambian clients:</strong> Contact us for affordable local packages!</p>
 
     <section class="content">
-      <h2>How It Works</h2>
+      <h2 id="how-it-works">How It Works</h2>
       <ol>
-        <li><strong>1. Tell Us What You Need:</strong> Choose the services that fit your business best.</li>
-        <li><strong>2. We Plan & Agree:</strong> We agree on what needs to be done, what you’ll provide, and if you want to share access or just get clear instructions.</li>
-        <li><strong>3. We Do the Work:</strong> We set up, write, or create your content — exactly as promised.</li>
-        <li><strong>4. You Approve & Launch:</strong> You check everything, request edits if needed, and we launch it together!</li>
-        <li><strong>5. Ongoing Support (Optional):</strong> Need updates? We’re here for simple edits or future help too!</li>
+        <li><strong>Tell Us What You Need:</strong> Choose the services that fit your business best.</li>
+        <li><strong>We Plan & Agree:</strong> We agree on what needs to be done, what you’ll provide, and if you want
+          to share access or just get clear instructions.</li>
+        <li><strong>We Do the Work:</strong> We set up, write, or create your content — exactly as promised.</li>
+        <li><strong>You Approve & Launch:</strong> You check everything, request edits if needed, and we launch it
+          together!</li>
+        <li><strong>Ongoing Support (Optional):</strong> Need updates? We’re here for simple edits or future help
+          too!</li>
       </ol>
     </section>
 
   </main>
 
   <footer class="footer">
-    <p>© 2025 ZedMavv | Built with 💙 by Alfy</p>
+    <p>© 2025 ZedMavv | Built by Alfred Mavwu</p>
   </footer>
 
 </body>
+
 </html>
